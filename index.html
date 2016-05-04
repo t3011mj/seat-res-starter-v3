@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Seat Reservation App</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="container">
+  <header>
+     <img src="images/Woodward Theater 5.png" alt="images/Woodward Theater Logo" width="250" height="200" />
+    <h1>The Woodward Theatre Seating Chart Change</h1>
+  </header>
+
+  <p>Make a seat reservation below by clicking on an available seat that is colored:</p>
+
+<form id="enterCustomer">
+  Customer Name:
+  <input type="text"    id="username">
+  Seat Number:
+  <input type="text"    id="seat"><br>
+  <button type="button" id="button">Submit</button>
+</form>
+
+<div id="message"> </div>
+
+  <section class="seat-chart">
+    <!-- This section will contain seats with one of two classes. Eventually, the divs will be generated with JavaScript! Keep this in mind when making decisions about the layout. -->
+    <div class="reserved" name="Seat 1"></div>  
+    <div class="available" name="Seat 2"></div> 
+    <div class="reserved" name="Seat 3"></div>  
+    <div class="available" name="Seat 4"></div> 
+    <div class="reserved" name="Seat 5"></div>  
+    <div class="available" name="Seat 6"></div> 
+    <div class="reserved" name="Seat 7"></div>  
+    <div class="available" name="Seat 8"></div>  
+    <div class="reserved" name="Seat 9"></div>  
+    <div class="available" name="Seat 10"></div>  
+    <div class="reserved" name="Seat 11"></div>  
+    <div class="reserved" name="Seat 12"></div>  
+    <div class="available" name="Seat 13"></div>  
+    <div class="reserved" name="Seat 14"></div>  
+    <div class="available" name="Seat 15"></div>  
+    <div class="reserved" name="Seat 16"></div>  
+    <div class="available" name="Seat 17"></div>  
+    <div class="reserved" name="Seat 18"></div>  
+    <div class="available" name="Seat 19"></div>  
+    <div class="reserved" name="Seat 20"></div>  
+    <div class="available" name="Seat 21"></div> 
+    <div class="reserved" name="Seat 22"></div>  
+    <div class="available" name="Seat 23"></div> 
+    <div class="available" name="Seat 24"></div>  
+  </section>
+
+<footer>
+  <h4>2016 Woodward Theatre project</h4>
+  </footer>
+
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="js/seatRes.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+body {
+  text-align: center;
+  background-image: url("../images/photo-filmstrip 5 Revised.jpg");
+  background-size: 100% 100%;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  opacity: .9;
+  color: midnightblue;
+
+}
+
+h1 {
+  font-weight: 900;
+}
+
+header {
+  border-bottom: 2px double black;
+}
+
+form {
+  display: none;
+  margin: 2% auto;
+
+}
+
+.seat-chart {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.available {
+  background-color: #eee8aa;
+  width: 24%;
+  margin: auto;
+  border-style: solid;
+  border-color: midnightblue;
+  min-height: 100px;
+  display: inline-block;
+  color: #000000;
+}
+
+.reserved {
+  background-color: #ffffe0;
+  width: 24%;
+  margin: auto;
+  border-style: solid;
+  border-color: midnightblue;
+  min-height: 100px;
+  display: inline-block;
+  color: #000000;
+
+}
+
+#message {
+    margin-bottom: 20px;
+}
+
+input {
+  border-style: solid;
+  border-color: midnightblue;
+}
+
+
+button {
+  background-color: midnightblue;
+  color: yellow;
+  margin-top: 20px;
+}
+
+footer {
+  color: yellow;
+  font-size: 100px;
+}
